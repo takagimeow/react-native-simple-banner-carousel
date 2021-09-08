@@ -74,11 +74,7 @@ const styles = StyleSheet.create({
 
 ## SimpleCarousel
 
----
-
 ### Props
-
----
 
 #### data (required)
 
@@ -96,11 +92,7 @@ I recommend that you use the Banner component.
 
 ## Banner
 
----
-
 ### Props
-
----
 
 #### id (required)
 
