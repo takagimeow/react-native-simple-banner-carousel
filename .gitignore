@@ -1,0 +1,6 @@
+examples
+node_modules
+lib
+Dockerfile
+Docker-Compose.yml
+*.log

@@ -1,0 +1,25 @@
+# OSX
+#
+.DS_Store
+
+# Node
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Misc
+#
+.expo
+.vscode/
+docs/
+examples/
+src/
+.eslintrc.js
+.prettierignore
+.watchmanconfig
+CHANGELOG.md
+post-version.sh
+renovate.json
+tsconfig.json
