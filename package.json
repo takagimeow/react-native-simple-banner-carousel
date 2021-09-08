@@ -1,11 +1,11 @@
 {
-  "name": "react-native-simple-carousel",
+  "name": "react-native-simple-banner-carousel",
   "version": "1.0.0-alpha.0",
   "description": "This is the simplest carousel component made for React Native.",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib/* && yarn lint && tsc",
+    "build": "yarn lint && tsc",
     "build:win": "yarn lint && tsc",
     "test": "yarn run test",
     "lint": "eslint \"src/**/*.ts?(x)\" && prettier --list-different \"**/*.{json,md,js,jsx,ts,tsx}\"",
@@ -25,10 +25,10 @@
     "ios"
   ],
   "author": "Keisuke Takagi",
-  "homepage": "https://github.com/takagimeow/react-native-simple-carousel#readme",
+  "homepage": "https://github.com/takagimeow/react-native-simple-banner-carousel#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/takagimeow/react-native-simple-carousel"
+    "url": "https://github.com/takagimeow/react-native-simple-banner-carousel"
   },
   "license": "MIT",
   "lint-staged": {

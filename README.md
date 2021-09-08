@@ -1,13 +1,13 @@
-# react-native-simple-carousel
+# react-native-simple-banner-carousel
 
 ## Installation
 
 ```bash
 # npm
-npm instal react-native-simple-carousel
+npm instal react-native-simple-banner-carousel
 
 # yarn
-yarn add react-native-simple-carousel
+yarn add react-native-simple-banner-carousel
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Here is a quick example.
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { SimpleCarousel, Banner } from 'react-native-simple-carousel';
+import { SimpleCarousel, Banner } from 'react-native-simple-banner-carousel';
 
 export default function App() {
   return (

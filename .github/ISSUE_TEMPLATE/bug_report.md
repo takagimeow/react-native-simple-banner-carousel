@@ -15,7 +15,7 @@ A clear and concise description of what the bug is.
 - Add gif screenshots to help explain your issue.
 
 **Dependencies:**
- - react-native-simple-carousel [e.g. 1.3.7-rc.19]
+ - react-native-simple-banner-carousel [e.g. 1.3.7-rc.19]
  - react-native [e.g. 0.62.0]
  - react-native-gesture-handler [e.g. 1.6.0]
  - expo/react-navigation/react-native-navigation: [e.g. expo@37.0.3]
