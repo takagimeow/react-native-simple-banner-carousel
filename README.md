@@ -1,5 +1,16 @@
 # react-native-simple-banner-carousel
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Github Actions](https://github.com/takagimeow/react-native-simple-banner-carousel/workflows/Test%20for%20PR/badge.svg)](https://github.com/takagimeow/react-native-simple-banner-carousel)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![NPM version](https://img.shields.io/npm/v/react-native-simple-banner-carousel.svg?style=flat-square)](https://npmjs.com/package/react-native-simple-banner-carousel)
+[![NPM downloads](https://img.shields.io/npm/dm/react-native-simple-banner-carousel.svg?style=flat-square)](https://npmjs.com/package/react-native-simple-banner-carousel)
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66447334/132850341-307f6ce6-ea1a-4744-8131-5e9ae55ec19e.gif" height="542" alt="Simple" />
+</p>
+
 ## Installation
 
 ```bash
