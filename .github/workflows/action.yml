@@ -1,0 +1,30 @@
+name: Test for PR
+
+on:
+  push:
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+(-alpha.[0-9]+)?"
+  pull_request:
+    branches:
+      - main
+    types: [opened, reopened, synchronize]
+
+jobs:
+  test: # ユニークなID
+    name: Test all functions
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2 # 最新のコミットをチェックアウトする（workflowがこのプロジェクトを利用できるようにするため$GITHUB_WORKSPACE配下にcloneする)
+      with:
+        ref: ${{ github.head_ref }}
+    - name: Setup
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: 必要なパッケージをインストール
+      run: yarn install
+    - name: lintingを行う
+      run: yarn run lint
+    - name: テストする
+      run: yarn run test
