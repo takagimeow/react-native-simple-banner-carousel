@@ -11,3 +11,10 @@ tsconfig.json
 
 README.md
 .eslintrc.js
+
+__mocks__/*.js
+__tests__/*.tsx
+jest.config.js
+tsconfig.json
+tsconfig.spec.json
+babel.config.js
