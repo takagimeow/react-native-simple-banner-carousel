@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleCarousel Snapshot Test 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    alwaysBounceHorizontal={false}
+    alwaysBounceVertical={false}
+    bounces={false}
+    collapsable={false}
+    contentContainerStyle={
+      Array [
+        Object {
+          "paddingHorizontal": 0,
+        },
+      ]
+    }
+    contentInset={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+      }
+    }
+    contentOffset={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    decelerationRate="fast"
+    horizontal={true}
+    nativeID="animatedComponent"
+    onScroll={[Function]}
+    pagingEnabled={true}
+    scrollEventThrottle={16}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="center"
+    snapToInterval={750}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "margin": 12,
+          }
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://reactnative.dev/img/homepage/phones.png",
+                }
+              }
+              style={
+                Object {
+                  "backgroundColor": "#bbb",
+                  "borderRadius": 10,
+                  "height": 156,
+                  "maxWidth": "100%",
+                  "width": 726,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 12,
+          }
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://reactnative.dev/img/homepage/phones.png",
+                }
+              }
+              style={
+                Object {
+                  "backgroundColor": "#bbb",
+                  "borderRadius": 10,
+                  "height": 156,
+                  "maxWidth": "100%",
+                  "width": 726,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 12,
+          }
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://reactnative.dev/img/homepage/phones.png",
+                }
+              }
+              style={
+                Object {
+                  "backgroundColor": "#bbb",
+                  "borderRadius": 10,
+                  "height": 156,
+                  "maxWidth": "100%",
+                  "width": 726,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 12,
+          }
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://reactnative.dev/img/homepage/phones.png",
+                }
+              }
+              style={
+                Object {
+                  "backgroundColor": "#bbb",
+                  "borderRadius": 10,
+                  "height": 156,
+                  "maxWidth": "100%",
+                  "width": 726,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 12,
+          }
+        }
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "https://reactnative.dev/img/homepage/phones.png",
+                }
+              }
+              style={
+                Object {
+                  "backgroundColor": "#bbb",
+                  "borderRadius": 10,
+                  "height": 156,
+                  "maxWidth": "100%",
+                  "width": 726,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "bottom": "5%",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 24,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "width": 750,
+        "zIndex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 25,
+          "height": 8,
+          "marginHorizontal": 5,
+          "opacity": 1,
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f0f0f0",
+          "borderRadius": 25,
+          "height": 8,
+          "marginHorizontal": 5,
+          "opacity": 0.5,
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f0f0f0",
+          "borderRadius": 25,
+          "height": 8,
+          "marginHorizontal": 5,
+          "opacity": 0.5,
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f0f0f0",
+          "borderRadius": 25,
+          "height": 8,
+          "marginHorizontal": 5,
+          "opacity": 0.5,
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#f0f0f0",
+          "borderRadius": 25,
+          "height": 8,
+          "marginHorizontal": 5,
+          "opacity": 0.5,
+          "width": 8,
+        }
+      }
+    />
+  </View>
+</View>
+`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner Snapshot Test 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://github.com/takagimeow/react-native-simple-banner-carousel",
+        }
+      }
+      style={
+        Object {
+          "backgroundColor": "#bbb",
+          "borderRadius": 10,
+          "height": 156,
+          "maxWidth": "100%",
+          "width": 128,
+        }
+      }
+    />
+  </View>
+</View>
+`;

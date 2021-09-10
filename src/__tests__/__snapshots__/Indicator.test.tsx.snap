@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Indicator Snapshot Test 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "bottom": "5%",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": 24,
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "width": 750,
+      "zIndex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "borderRadius": 25,
+        "height": 8,
+        "marginHorizontal": 5,
+        "opacity": 1,
+        "width": 8,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#f0f0f0",
+        "borderRadius": 25,
+        "height": 8,
+        "marginHorizontal": 5,
+        "opacity": 0.5,
+        "width": 8,
+      }
+    }
+  />
+</View>
+`;
