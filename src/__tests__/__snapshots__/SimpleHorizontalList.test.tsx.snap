@@ -1,0 +1,568 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleHorizontalList Snapshot Test 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    alwaysBounceHorizontal={false}
+    alwaysBounceVertical={false}
+    bounces={false}
+    collapsable={false}
+    contentContainerStyle={
+      Array [
+        Object {
+          "paddingHorizontal": 0,
+        },
+      ]
+    }
+    contentInset={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+      }
+    }
+    contentOffset={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    decelerationRate="fast"
+    horizontal={true}
+    nativeID="animatedComponent"
+    onScroll={[Function]}
+    pagingEnabled={true}
+    scrollEventThrottle={16}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={578.5}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "margin": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fffffff",
+                "maxWidth": "100%",
+                "paddingBottom": 16,
+                "paddingTop": 12,
+                "width": 562.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://github.com/takagimeow/react-native-simple-banner-carousel",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#bbb",
+                "height": 156,
+                "marginBottom": 8,
+                "maxWidth": "100%",
+                "width": 562.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "flex": 11,
+                  "fontSize": 14,
+                }
+              }
+            >
+              マクドナルド札幌すすきの店
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#f0f0f0",
+                  "borderRadius": 25,
+                  "display": "flex",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 6,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                  }
+                }
+              >
+                4.7
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                }
+              }
+            >
+              配送手数料: ￥150・5-15分
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fffffff",
+                "maxWidth": "100%",
+                "paddingBottom": 16,
+                "paddingTop": 12,
+                "width": 562.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://github.com/takagimeow/react-native-simple-banner-carousel",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#bbb",
+                "height": 156,
+                "marginBottom": 8,
+                "maxWidth": "100%",
+                "width": 562.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "flex": 11,
+                  "fontSize": 14,
+                }
+              }
+            >
+              ケンタッキーフライドチキン すすきのノルベサ店
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#f0f0f0",
+                  "borderRadius": 25,
+                  "display": "flex",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 6,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                  }
+                }
+              >
+                4.7
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                }
+              }
+            >
+              配送手数料: ￥100・20-30分
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fffffff",
+                "maxWidth": "100%",
+                "paddingBottom": 16,
+                "paddingTop": 12,
+                "width": 562.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://github.com/takagimeow/react-native-simple-banner-carousel",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#bbb",
+                "height": 156,
+                "marginBottom": 8,
+                "maxWidth": "100%",
+                "width": 562.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "flex": 11,
+                  "fontSize": 14,
+                }
+              }
+            >
+              すき家 札幌駅前通北一条店
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#f0f0f0",
+                  "borderRadius": 25,
+                  "display": "flex",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 6,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                  }
+                }
+              >
+                4.7
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                }
+              }
+            >
+              配送手数料: ￥100・5-15分
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fffffff",
+                "maxWidth": "100%",
+                "paddingBottom": 16,
+                "paddingTop": 12,
+                "width": 562.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://github.com/takagimeow/react-native-simple-banner-carousel",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#bbb",
+                "height": 156,
+                "marginBottom": 8,
+                "maxWidth": "100%",
+                "width": 562.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "flex": 11,
+                  "fontSize": 14,
+                }
+              }
+            >
+              大戸屋ごはん処 ニッセイ札幌ビル店
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#f0f0f0",
+                  "borderRadius": 25,
+                  "display": "flex",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 6,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                  }
+                }
+              >
+                4.7
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                }
+              }
+            >
+              配送手数料: ￥100・30-40分
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "margin": 8,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fffffff",
+                "maxWidth": "100%",
+                "paddingBottom": 16,
+                "paddingTop": 12,
+                "width": 562.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://github.com/takagimeow/react-native-simple-banner-carousel",
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#bbb",
+                "height": 156,
+                "marginBottom": 8,
+                "maxWidth": "100%",
+                "width": 562.5,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "flex": 11,
+                  "fontSize": 14,
+                }
+              }
+            >
+              スターバックス コーヒー 札幌パルコ
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#f0f0f0",
+                  "borderRadius": 25,
+                  "display": "flex",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 6,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "fontSize": 12,
+                  }
+                }
+              >
+                4.8
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 12,
+                }
+              }
+            >
+              配送手数料: ￥100・5-15分
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

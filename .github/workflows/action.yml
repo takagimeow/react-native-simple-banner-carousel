@@ -27,4 +27,4 @@ jobs:
     - name: lintingを行う
       run: yarn run lint
     - name: テストする
-      run: yarn run test
+      run: yarn run test -u
