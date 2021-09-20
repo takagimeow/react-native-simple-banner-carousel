@@ -25,6 +25,8 @@ yarn add react-native-simple-banner-carousel
 
 Here is a quick example.
 
+### SimpleCarousel
+
 ```tsx
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
@@ -83,7 +85,82 @@ const styles = StyleSheet.create({
 });
 ```
 
+### Simple Horizontal List
+
+```tsx
+<View
+  style={{
+    paddingVertical: 12,
+    width: '100%',
+    backgroundColor: '#fff',
+  }}
+>
+  <SimpleHorizontalList
+    data={[
+      {
+        title: 'マクドナルド札幌すすきの店',
+        description: '配送手数料: ￥150・5-15分',
+        score: 4.7,
+        source: require('./assets/images/pxl1.jpg'),
+      },
+      {
+        title: 'ケンタッキーフライドチキン すすきのノルベサ店',
+        description: '配送手数料: ￥100・20-30分',
+        score: 4.7,
+        source: require('./assets/images/pxl2.jpg'),
+      },
+      {
+        title: 'すき家 札幌駅前通北一条店',
+        description: '配送手数料: ￥100・5-15分',
+        score: 4.7,
+        source: require('./assets/images/pxl3.jpg'),
+      },
+      {
+        title: '大戸屋ごはん処 ニッセイ札幌ビル店',
+        description: '配送手数料: ￥100・30-40分',
+        score: 4.7,
+        source: require('./assets/images/pxl4.jpg'),
+      },
+      {
+        title: 'スターバックス コーヒー 札幌パルコ',
+        description: '配送手数料: ￥100・5-15分',
+        score: 4.8,
+        source: require('./assets/images/pxl5.jpg'),
+      },
+    ]}
+    renderItem={(props, i, width) => {
+      return (
+        <Card
+          id={`${props.title}_${i}`}
+          width={width}
+          {...props}
+          onPress={() => console.log('hello world')}
+        />
+      );
+    }}
+  />
+</View>
+```
+
 ## SimpleCarousel
+
+### Props
+
+#### data (required)
+
+Type: Array<Object>
+
+This property is an array of the data you want to display in the carousel.
+The data element is passed as the first argument of renderItem method.
+
+#### renderItem (required)
+
+Type: (props: Object, index: number, itemWidth: number) => React.ReactElement;
+
+A method that returns the component you want to display in the carousel.
+I recommend that you use the Banner component.
+
+## SimpleHorizontalList
 
 ### Props
 
@@ -111,6 +188,51 @@ Type: string
 
 This ID is a property that identifies this banner, and is passed to the onPress method.
 
+#### source (required)
+
+Type: Object
+
+The source of the image you want to display in the banner.
+
+#### width (required)
+
+Type: number;
+
+The width of the banner.
+
+#### onPress
+
+Type: (id: string) => void;
+
+The method to be called when tapped.
+
+## Card
+
+### Props
+
+#### id (required)
+
+Type: string
+
+This ID is a property that identifies this banner, and is passed to the onPress method.
+
+#### title (required)
+
+Type: string
+
+Title of this card.
+
+#### description (required)
+
+Type: string
+
+Description of this card.
+
+#### score (required)
+
+Type: number
+
+Review Score.
 #### source (required)
 
 Type: Object
